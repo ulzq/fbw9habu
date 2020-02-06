@@ -7,15 +7,15 @@ import BuchListe from './component/BuchListe'
 let buchDefault;
 try {
   buchDefault = JSON.parse(
-    localStorage.getItem('liste')
+    localStorage.getItem('haushaltsbuch')
   )||[];
 } catch (e){
   buchDefault = [];
 };
 
-const listeSpeichern = liste => {
+const haushaltsbuchSpeichern = haushaltsbuch => {
   try {
-    localStorage.setItem('liste',JSON.stringify(liste));
+    localStorage.setItem('haushaltsbuch',JSON.stringify(haushaltsbuch));
   } catch(e){}
 }
 
@@ -26,13 +26,13 @@ function App(){
   const loeschen = (nummer)=> {
     const neueListe = buch.filter( (_,n)=> !( n === nummer ) );
     setzeBuch( neueListe );
-    listeSpeichern( neueListe );
+    haushaltsbuchSpeichern( neueListe );
   }
 
   const hinzufuegen = (eingabe) => {
     const neueListe = [eingabe,...buch];
     setzeBuch( neueListe );
-    listeSpeichern( neueListe );
+    haushaltsbuchSpeichern( neueListe );
   }
 
   return (
