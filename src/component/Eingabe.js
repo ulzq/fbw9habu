@@ -2,7 +2,7 @@
 import React from 'react'
 import { Button, FormControl, InputGroup } from 'react-bootstrap'
 
-function Eingabe({setzeLivePreis,hinzufuegen,titel}){
+function Eingabe({livePreisSetzen,hinzufuegen,titel}){
 
   const [beschreibung,beschreibungSetzen] = React.useState('');
   const [preis,preisSetzen]     = React.useState('');
@@ -14,7 +14,7 @@ function Eingabe({setzeLivePreis,hinzufuegen,titel}){
     let preis = e.target.value;
     preisSetzen(preis);
     let preisAlsZahl = Number(preis.replace(',','.'));
-    setzeLivePreis( isNaN(preisAlsZahl)? 0 : preisAlsZahl );
+    livePreisSetzen( isNaN(preisAlsZahl)? 0 : preisAlsZahl );
   }
 
   const hinzufuegenHaendler = e => {
@@ -22,6 +22,7 @@ function Eingabe({setzeLivePreis,hinzufuegen,titel}){
     if ( isNaN(preisAlsZahl) ) return;    hinzufuegen({beschreibung,preis:preisAlsZahl});
     beschreibungSetzen('');
     preisSetzen('');
+    livePreisSetzen(0);
   }
 
   return (
