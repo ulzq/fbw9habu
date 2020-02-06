@@ -2,7 +2,7 @@
   "name": "react-grundlagen-01",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ulzq.github.io/fbw9habu",
+  "homepage": "http://ulzq.github.io/habu",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
