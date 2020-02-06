@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54d39d449389ba9db4dd35310b29f4c3",
+    "revision": "f443198040860e77e0e2bc99526bd9ca",
     "url": "/habu/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/habu/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "74899513804b2011c4a1",
+    "revision": "6e93d851b4c5ce6b3dd7",
     "url": "/habu/static/css/main.3450a9be.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/habu/static/js/2.0bf3e7bc.chunk.js.LICENSE"
   },
   {
-    "revision": "74899513804b2011c4a1",
-    "url": "/habu/static/js/main.a5656976.chunk.js"
+    "revision": "6e93d851b4c5ce6b3dd7",
+    "url": "/habu/static/js/main.897c1e38.chunk.js"
   },
   {
     "revision": "eec385bb31bb96a2e876",

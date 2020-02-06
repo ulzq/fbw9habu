@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/habu/static/css/main.3450a9be.chunk.css",
-    "main.js": "/habu/static/js/main.a5656976.chunk.js",
-    "main.js.map": "/habu/static/js/main.a5656976.chunk.js.map",
+    "main.js": "/habu/static/js/main.897c1e38.chunk.js",
+    "main.js.map": "/habu/static/js/main.897c1e38.chunk.js.map",
     "runtime-main.js": "/habu/static/js/runtime-main.86a815e8.js",
     "runtime-main.js.map": "/habu/static/js/runtime-main.86a815e8.js.map",
     "static/css/2.17e5ed98.chunk.css": "/habu/static/css/2.17e5ed98.chunk.css",
     "static/js/2.0bf3e7bc.chunk.js": "/habu/static/js/2.0bf3e7bc.chunk.js",
     "static/js/2.0bf3e7bc.chunk.js.map": "/habu/static/js/2.0bf3e7bc.chunk.js.map",
     "index.html": "/habu/index.html",
-    "precache-manifest.9c4f37b92e1fe3c2d59c8abebce08308.js": "/habu/precache-manifest.9c4f37b92e1fe3c2d59c8abebce08308.js",
+    "precache-manifest.26d0c6241c7d677bd01faf4883b2e073.js": "/habu/precache-manifest.26d0c6241c7d677bd01faf4883b2e073.js",
     "service-worker.js": "/habu/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/habu/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.3450a9be.chunk.css.map": "/habu/static/css/main.3450a9be.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.0bf3e7bc.chunk.js",
     "static/css/main.3450a9be.chunk.css",
-    "static/js/main.a5656976.chunk.js"
+    "static/js/main.897c1e38.chunk.js"
   ]
 }
